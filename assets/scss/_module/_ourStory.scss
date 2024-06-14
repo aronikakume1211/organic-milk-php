@@ -1,0 +1,135 @@
+.our_story_container_fluid {
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px;
+
+    @media screen and (max-width: 768px) {
+        padding: 20px 10px;
+    }
+}
+
+.our_story_container {
+    max-width: $body-max-width;
+    margin: 0 auto;
+    padding: 30px 50px;
+    padding-bottom: 40px;
+    border-radius: 7.5px;
+    box-shadow: 0px 12px 24px 0px rgba(58, 58, 68, 0.0784313725);
+    box-shadow: $box-shadow;
+    transition: all 0.3s ease-in-out;
+
+    @media screen and (max-width: 768px) {
+        padding: 30px 20px;
+    }
+
+    h3 {
+        font-family: 'Prompt', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36.29px;
+        color: #3F3F3F;
+    }
+
+    h2 {
+        font-family: 'Prompt', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48.38px;
+        color: #3F3F3F;
+    }
+
+    .first_para {
+        font-family: 'Prompt', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: justify;
+        color: #000;
+
+    }
+
+}
+
+.our_story_contents {
+    margin-top: 30px;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+
+    @media screen and (max-width: 768px) {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+
+    img {
+        width: 402px;
+        height: 346px;
+        transition: all 0.3s ease-in-out;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .our_story_content {
+        width: 275px;
+        transition: all 0.3s ease-in-out;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+
+        p {
+            margin-top: 20px;
+            font-family: 'Prompt', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            text-align: justify;
+
+
+            strong {
+                font-family: 'Prompt', sans-serif;
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 18px;
+                text-align: left;
+
+            }
+        }
+    }
+}
+
+.our_story_footer_circle_container {
+    height: 1.5px;
+    width: 275px;
+    background-color: $green;
+    margin-top: 20px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+
+    .our_story_circle_left {
+        background-color: $green;
+        height: 18px;
+        width: 18px;
+        border-radius: 18px;
+        position: absolute;
+        left: 0;
+        top: -8px;
+    }
+
+    .our_story_circle_right {
+        background-color: $green;
+        height: 18px;
+        width: 18px;
+        border-radius: 18px;
+        position: absolute;
+        right: 0;
+        top: -8px;
+    }
+}

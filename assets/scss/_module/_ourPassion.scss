@@ -1,0 +1,118 @@
+.our_passion_container_fluid{
+    transition: all 0.3s ease-in-out;
+    @media screen and (max-width: 768px) {
+       padding: 10px;;
+    }
+
+}
+.our_passion_container {
+    min-height: 448px;
+    max-width: $body-max-width;
+    margin: 0 auto;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+
+}
+
+.our_passion_container_overlay {
+    background: rgba(0, 0, 0, 0.88);
+    width: 100%;
+    min-height: 448px;
+    border-radius: $border-radius;
+    color: #fff;
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 15px;
+    }
+}
+
+.our_passion_left {
+    width: 430px;
+    transition: all 0.3s ease-in-out;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+
+    .our_passion_left_titles {
+        border-left: 1.5px solid #fff;
+        height: 84px;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s ease-in-out;
+        @media screen and (max-width: 768px) {
+          height: 54px;
+        }
+
+        h2 {
+            font-family: 'Prompt', sans-serif;
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 48.38px;
+            text-align: justify;
+            text-transform: uppercase;
+            margin: 0;
+
+        }
+    }
+
+    .our_passion_content {
+        font-family: 'Prompt', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: justify;
+        padding-top: 50px;
+
+    }
+}
+
+.our_passion_right {
+    width: 598px;
+    transition: all 0.3s ease-in-out;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.our_passions {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 110px 30px;
+    transition: all 0.3s ease-in-out;
+    @media screen and (max-width: 768px) {
+       gap: 50px;
+    }
+
+    li {
+        width: 275px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        h3 {
+            font-family: 'Prompt', sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 22.68px;
+            text-transform: uppercase;
+
+        }
+
+        p {
+            font-family: 'Prompt', sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 18px;
+            text-align: left;
+
+        }
+    }
+}

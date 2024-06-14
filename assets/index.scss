@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// colors
+$red: #E14900;
+$secondery-color: #D4E043;
+$nav-text-color: #161616;
+$green: #004008;
+$box-shadow: 0px 24px 48px 0px #5A5B6A14,
+    0px 12px 24px 0px #3A3A4414;
+$border-radius: 7.5px;
+
+// Layout
+$max-width: 1349px;
+$body-max-width: 1242px;
+$padding: 0px 10px;
+
+#selected_country{
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+.show_popup{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+@import "scss/_module/header";
+@import "scss/_module/footer";
+@import "scss/_module/hero";
+@import "scss/_module/ourStory";
+@import "scss/_module/ourPassion";
+@import "scss/_module/faqs";
+@import "scss/_module/testimonial";
+@import "scss/_module/productList";
+@import "scss/_module/features";
+@import "scss/_module/goodness";
+@import "scss/_module/location";
+
